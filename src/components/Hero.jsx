@@ -4,11 +4,13 @@ import windowsIcon from "../assets/windows10.svg";
 
 function Hero() {
   const downloadMacFile = () => {
-    window.location.href = "";
+    window.location.href =
+      "https://cyc-deployed-files.s3.ap-northeast-2.amazonaws.com/checkyourcss-1.0.0-arm64.dmg";
   };
 
   const downloadWindowsFile = () => {
-    window.location.href = "";
+    window.location.href =
+      "https://cyc-deployed-files.s3.ap-northeast-2.amazonaws.com/checkyourcss+Setup+1.0.0.exe";
   };
 
   return (
